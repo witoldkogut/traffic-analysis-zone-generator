@@ -85,7 +85,7 @@ Poland. Replace if working elsewhere.
 
 ## Quick usage
 
-1. Edit `center` and `radius_m` in the second code cell.
+1. Edit `center` and `radius_m` in the settings code cell.
 2. Run all cells top-to-bottom.
 3. The final cell renders a two-panel preview; the GPKG is written next to the
    notebook as `osm_barriers.gpkg`.

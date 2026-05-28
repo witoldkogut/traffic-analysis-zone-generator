@@ -42,7 +42,7 @@ Everything downstream is derived from these two values.
    path from a degree-1 vertex back to the nearest junction (degree ≥ 3);
    removing one can expose a new dead end, so the loop runs to fixpoint.
 
-5. **Zone generation** — build the AOI bounding box (in EPSG:2180), clip the
+5. **Zone generation** — build the AOI bounding box (in metric CRS), clip the
    pruned barrier network to it, then `shapely.ops.polygonize` on the union of
    the box boundary and the barriers to extract every face.
 

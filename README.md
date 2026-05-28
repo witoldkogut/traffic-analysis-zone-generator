@@ -80,8 +80,7 @@ A single GeoPackage `osm_barriers.gpkg` with six layers:
 pip install osmnx geopandas shapely centerline networkx matplotlib
 ```
 
-CRS used for length / area operations: **EPSG:2180** (PL-1992), suitable for
-Poland. Replace if working elsewhere.
+CRS used for length / area operations needs to be metric (i.e. 27700 for UK - Replace if working elsewhere.).
 
 ## Quick usage
 
@@ -93,7 +92,7 @@ Poland. Replace if working elsewhere.
 ## Caveats
 
 - **OSM completeness.** Outputs only reflect what is mapped in OSM at run time.
-  In Poland this is generally good for trunk and primary roads and PKP PLK
+  This is generally good for trunk and primary roads and 
   railway lines, less so for small streams and farm tracks.
 - **Coastal / boundary AOIs.** The dead-end pruner needs barriers to terminate
   on either the AOI rectangle or a junction; barriers that fade out inside the

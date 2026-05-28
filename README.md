@@ -10,7 +10,7 @@ sourced from OpenStreetMap, then merging tiny slivers.
 
 Two parameters at the top of the notebook:
 
-| Parameter  | Default                | Meaning                            |
+| Parameter  | Example                | Meaning                            |
 |------------|------------------------|------------------------------------|
 | `center`   | `(50.01640, 20.01117)` | AOI centre, `(lat, lon)` in WGS84  |
 | `radius_m` | `10_000`               | AOI radius in metres               |
